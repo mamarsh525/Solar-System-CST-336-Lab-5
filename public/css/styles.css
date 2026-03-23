@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #0a0a1a;
+    background-image:
+        radial-gradient(white 1px, transparent 1px),
+        radial-gradient(white 1px, transparent 1px);
+    background-size: 200px 200px, 100px 100px;
+    background-position: 0 0, 50px 50px;
+    color: #e0e0ff;
+    font-family: 'Exo 2', sans-serif;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 20px rgba(0, 200, 255, 0.8);
+    background: linear-gradient(135deg, #0d47a1, #00bcd4) !important;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #00e5ff;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(5, 5, 30, 0.95) !important;
+    border-bottom: 1px solid rgba(0, 200, 255, 0.3);
+    
+}
+
+.nav-link {
+    color: #a0c4ff !important;
+    transition: color 0.2s, text-shadow 0.2s;
+}
+
+.nav-link:hover {
+    color: #00e5ff !important;
+    text-shadow: 0 0 8px rgba(0, 229, 255, 0.7);
+}
+
+/* Cards */
+.card {
+    background: rgba(10, 10, 40, 0.85) !important;
+    border: 1px solid rgba(0, 200, 255, 0.25) !important;
+    color: #e0e0ff !important;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 20px rgba(0, 100, 255, 0.15);
+}
+
+/* Planet image */
+.card img {
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(0, 200, 255, 0.4);
+    max-width: 100%;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: #0d0d2b !important;
+    border: 1px solid #00bcd4 !important;
+    z-index: 9999 !important;
+    position: absolute !important;
+}
+
+.dropdown-menu .nav-link,
+.dropdown-item {
+    color: #c8e6ff !important;
+    pointer-events: auto !important;
+}
+
+.dropdown-menu .nav-link:hover,
+.dropdown-item:hover {
+    background-color: #1a1a4a !important;
+    color: #00e5ff !important;
+}
+
+/* Buttons */
+.btn-secondary {
+    background: rgba(0, 100, 200, 0.4) !important;
+    border-color: rgba(0, 200, 255, 0.5) !important;
+    color: #a0c4ff !important;
+}
+
+.btn-secondary:hover {
+    background: rgba(0, 150, 255, 0.5) !important;
+    color: #fff !important;
+}
